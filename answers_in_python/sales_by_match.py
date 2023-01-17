@@ -14,7 +14,7 @@ def sockMerchant(n, ar):
         if i in number_of_pairs:
             number_of_pairs[i] += 1
         else:
-            number_of_pairs[i] = 1    
+            number_of_pairs[i] = 1
 
     for i, count in number_of_pairs.items():
         if count >= 2:
